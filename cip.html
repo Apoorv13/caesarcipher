@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="EN">
+<head>
+<title>
+Caesar Cipher | Apoorv Dayal
+</title>
+<link rel="stylesheet" type="text/css" href="cip.css">
+<script src="cip.js" type="text/javascript"></script>
+</head>
+<body>
+<div class='container'>
+  <hgroup>
+    <h1>Caesar Cipher</h1>
+    <h2>
+      Experiment by
+      <a href='http://github.com/Apoorv13' target='_blank'>Apoorv</a>
+    </h2>
+  </hgroup>
+  <div class='toggle'>
+    <input type='checkbox'>
+    <div class='button'></div>
+  </div>
+  <div class='toggle'>
+    <input checked='yup!' type='checkbox'>
+    <div class='button'></div>
+  </div>
+</div>
+<section id="cipher">
+  <h2>Cipher App</h2>
+  <p>The purpose of this app is to provide a quick way to use Caesar's cipher. Choose whether you want to encrypt or decrypt and the number of places the characters will shift.</p>
+  <textarea id="text" rows="4"></textarea>
+  <div id="commands">
+    <p>Choose a key between 1 and 25</p>
+    <input type="number" name="key" min="1" max="25" placeholder="1"/>
+    <button>Start Cipher</button>
+  </div>
+  <p id="result"></p>
+</section>
+</body>
+</html>
